@@ -4,6 +4,9 @@ This project deploys a transactions contract to the ethereum rinkeby testnet or 
 
 To deploy the script:
 
+Remove '.dev' from projectId and secret files
+Add a projectId and secret from infura (or other API)
+
 ```shell
 npx hardhat run scripts/deploy.js --network rinkeby
 ```
